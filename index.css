@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  font-family: "Kumbh Sans";
+  align-items: center;
+  justify-content: center;
+}
+
+.main-component {
+  width: 700px;
+  height: 300px;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(185, 75%, 39%);
+  background-image:url(images/bg-pattern-bottom.svg);
+  background-size: 75%;
+}
+
+.top-of-card {
+  width: 120px;
+  background-image: url(images/bg-pattern-card.svg);
+  height: 50px;
+  border-radius: 12px 12px 0px 0px;
+  position: absolute;
+  top: 225px;
+}
+
+.inner-card {
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 30px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.profile-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5px solid hsl(227, 10%, 46%);
+}
+
+.static-info1,
+.static-info2,
+.static-info3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.subscribers-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.owner {
+  font-size: 13px;
+}
+
+.location {
+  font-size: 10px;
+  color: hsl(227, 10%, 46%);
+}
+
+.subscribers-statistic {
+  font-size: 11px;
+}
+
+.subscribers-name {
+  font-size: 8px;
+  color: hsl(227, 10%, 46%);
+}
+
+.owner,
+.subscribers-statistic {
+  color: hsl(229, 23%, 23%);
+}
+
+.owner-info {
+  display: flex;
+  gap: 5px;
+}
+
+.para {
+  font-size: 11px;
+  color: hsl(227, 10%, 46%);
+}
